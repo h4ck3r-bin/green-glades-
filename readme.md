@@ -1,76 +1,80 @@
-# 🌱 Green Glades
+____                      ____ _Y_ _
+ / ___|_ __ ___  ___ _ __  / ___| | | |__  _   _ ___
+| |  _| '__/ _ \/ _ \ '_ \| |  _| | | '_ \| | | / __|
+| |_| | | |  __/  __/ | | | |_| | | | |_) | |_| \__ \
+ \____|_|  \___|\___|_| |_|\____|_|_|_.__/ \__,_|___/
+                                  [v1.0.0-alpha]
 
-**Soil-free. Community-first. Built from what we already have.**
+**Self-hosted. Privacy-first. Built from what we already have.**
 
-Green Glades is a youth-led hydroponic farming initiative based in Kaduna, Nigeria. We grow fresh produce using locally sourced materials and zero electricity, making sustainable farming accessible to everyday people in Northern Nigeria.
+GreenGlades is a youth-led open-source security initiative. We build lightweight Linux-based monitoring and hardening tools using locally available hardware and zero cloud dependency, making practical cybersecurity accessible to everyday users and small organizations.
 
 ---
 
 ## The Problem
 
-Northern Nigeria faces serious food security challenges. Fresh produce is expensive, imported from far away, and often out of reach. Conventional farming is increasingly threatened by drought, land conflicts, and a changing climate. Most people assume modern farming requires expensive equipment or imported chemicals.
+Many regions face serious digital security challenges. Commercial security tools are expensive, require constant internet access, and are often out of reach for individuals and small businesses. Conventional security setups increasingly depend on cloud subscriptions, proprietary licenses, and external infrastructure. Most people assume real security requires expensive hardware or paid software.
 
 We disagree.
 
 ## What We Do
 
-We grow crops like lettuce hydroponically using the Kratky method, a passive, electricity-free system where plants grow in recycled bottles filled with nutrient solution. No pumps. No soil. No power cuts can stop us.
+We build and deploy lightweight intrusion detection and system-hardening tools using a passive, offline-first approach — running entirely on repurposed hardware with open-source Linux tools. No subscriptions. No cloud lock-in. No outage can stop it.
 
-What makes us different is our nutrient solution. Instead of importing expensive fertilizers, we formulated our own using entirely local materials:
+What makes us different is our toolkit. Instead of relying on expensive commercial suites, we assembled our own using entirely free and open-source components:
 
-- **Kanwa (potash)** • local potassium source used in Northern Nigerian households for generations
-- **Urea** • sourced from a local fertilizer company in Northern Nigeria
-- **Epsom salt** • magnesium source, available at any pharmacy
-- **Eggshell solution** • Calcium source
-- **Wood ash** • trace minerals, freely available in most homes
+- **iptables / nftables** • local firewall rules built from scratch for the environment
+- **Fail2Ban** • intrusion prevention configured for local threat patterns
+- **Wazuh / OSSEC** • lightweight host-based monitoring
+- **Custom bash + cron scripts** • automated log analysis and alerting
+- **Self-hosted dashboards** • status reporting with zero external dependencies
 
-We tested this formula and confirmed it supports healthy plant growth. The entire nutrient solution costs almost nothing to produce and can be replicated by anyone.
+We tested this stack and confirmed it provides reliable protection on minimal hardware. The entire setup costs almost nothing to deploy and can be replicated by anyone.
 
 ## Our Bigger Vision
 
-Green Glades is not just a farm. It is a movement.
+GreenGlades is not just a toolkit. It is a movement.
 
 **Phase 1 • Current**
 
-Small-scale Kratky lettuce production using recycled bottles. Weekly harvests supplied to local supermarkets and food businesses in Kaduna.
+Small-scale deployment of hardened Linux monitoring nodes using repurposed hardware. Active testing on local networks and small business setups.
 
 **Phase 2 • Near Term**
 
-Launch a pre-order web platform where customers reserve bundles before harvest. Live inventory system with WhatsApp-verified ordering. Pay on collection. Zero food waste.
+Launch a self-hosted dashboard platform where users can monitor multiple nodes. Live alert system with messaging-app integration. Run locally, zero data sent externally.
 
 **Phase 3 • Scale**
 
-Build a software-managed greenhouse. Produce and sell affordable DIY hydroponic nutrient kits made entirely from local Northern Nigerian materials, so that anyone in the community can start growing at home.
+Build a centrally manageable fleet of low-cost security nodes. Produce and distribute affordable DIY hardening kits and pre-configured scripts made entirely from open-source components, so anyone can secure their own network at home.
 
 ## Why It Matters
 
-Every bundle of lettuce grown by Green Glades is one less bundle trucked in from hundreds of kilometers away. Every bottle farm replicated in a neighbor's home is one more household contributing to a greener, cooler, more food-secure community.
+Every node running GreenGlades is one less system vulnerable to common, automated attacks. Every setup replicated in someone's home or small business is one more network contributing to a safer, more resilient digital community.
 
-Hydroponics uses up to 90% less water than conventional farming. Our system needs zero electricity. Our nutrients come from the ground beneath us. This is climate action that does not wait for government intervention or imported technology. It starts under a staircase in Kaduna, with bottles and a plan.
+Open-source hardening can reduce common attack surface significantly compared to default configurations. Our system needs no recurring fees. Our tools come from the community already building them. This is digital resilience that does not wait for expensive vendors or imported software. It starts with a spare machine, a terminal, and a plan.
 
 ## Progress So Far
 
-- Nutrient formula developed and tested using entirely local materials
-- Growing space identified and prepared
-- Kratky bottle system designed and ready for first batch
-- Pre-order business model designed with digital platform in planning
-- Local market research completed with strong demand confirmed across supermarkets and food businesses
+- Hardening script set developed and tested using entirely open-source tools
+- Test environment identified and prepared
+- Monitoring node architecture designed and ready for first deployment
+- Dashboard platform model designed with self-hosted system in planning
+- Initial testing completed with strong reliability confirmed across multiple setups
 
 ## The Timeline
 
 | Phase | Timeline | Milestone |
 |-------|----------|-----------|
-| Research and Development | Completed | Local nutrient formula tested and confirmed |
-| First Batch | Month 1 | 100+ lettuce plants in Kratky bottle system |
-| First Harvest | Week 5-6 | Fresh lettuce delivered to first supermarket partner |
-| Staggered Production | Month 2 onwards | Weekly harvests running continuously |
-| Pre-order Platform | Month 3 | Website and WhatsApp ordering system live |
-| Nutrient Kit Sales | Month 4-6 | DIY kits available for community purchase |
-| Greenhouse | Phase 3 | Software-managed controlled environment farm |
+| Research and Development | Completed | Core hardening scripts tested and confirmed |
+| First Deployment | Month 1 | 100+ hours of stable monitoring on test node |
+| First Report | Week 5-6 | Full security report generated from live node |
+| Staggered Rollout | Month 2 onwards | Multiple monitoring nodes running continuously |
+| Dashboard Platform | Month 3 | Self-hosted web dashboard and alert system live |
+| Hardening Kit Releases | Month 4-6 | DIY kits and scripts available for public use |
+| Fleet Management | Phase 3 | Centrally manageable multi-node deployment |
 
 ## Built By
 
-A young person in Kaduna, Nigeria with a staircase, some bottles, and a serious plan. 🌱
+A developer with a spare machine, a terminal, and a serious plan. 🛡️
 
-*Green Glades • growing food from what the land already gives us.*
-
+*GreenGlades • building security from what we already have.*
